@@ -1,0 +1,9 @@
+* trivia
+
+Trivia is a pattern matching compiler that is compatible with Optima.
+
+|---------+------------------------------------------------|
+| source  | git:https://github.com/guicho271828/trivia.git |
+| commit  | 9e38bf2                                        |
+| systems | trivia                                         |
+|---------+------------------------------------------------|
