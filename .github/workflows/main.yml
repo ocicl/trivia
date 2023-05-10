@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Test and publish package
     steps:
-      - id: do-something
+      - id: build-and-publish
         uses: ocicl/ocicl-action@main
         with:
-          project-name: 'cl-ppcre'
+          gpg_signing_key: ${{ secrets.GPG_SIGNING_KEY }}
+          gpg_public_key: ${{ secrets.GPG_PUBLIC_KEY }}
